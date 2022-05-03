@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+   
+}
+
+/* GRID */
+.mainPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 10fr;
+    grid-template-rows: 2fr 7fr ;
+    grid-template-areas: 'header header'
+                         'menu content';
+}
+
+
+.content{
+    grid-area: content;
+    background-color: rgb(69, 11, 59);
+}
+
+/* HEADER  */
+.header{
+    grid-area: header;
+    background-image: linear-gradient(to right, black,  rgb(167, 25, 143));
+    border: solid black 2px;
+  
+}
+.headerView{
+    font-family:'Lucida Sans Regular';
+    text-align: center;
+    color: rgb(177, 22, 146);
+    font-variant: small-caps;
+    font-size: x-large;
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+  
+}
+
+
+/* MENU */
+
+.menu{
+    grid-area: menu;
+    background-image: linear-gradient(to bottom, black, rgb(167, 25, 143));
+    text-align: center;
+    border: solid black 2px;
+}
+.menuButton{
+    margin: 15px;
+    background-color: rgb(69, 11, 59);
+    /* box-shadow: inset 15px 15px 40px rgb(0, 0, 0); */
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    color: rgb(177, 22, 146);
+    width: 100px;
+    height: 50px;
+    font-variant: small-caps;
+    border: solid black 2px;
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  
+}
+
+@keyframes example {
+    from {  box-shadow: 5px 5px 7px rgb(0, 0, 0);
+         
+    }
+    to {   box-shadow: 5px 5px 7px rgb(177, 22, 146)}
+  }
+.menuButton:hover{
+    height: 100px;
+    width: 150px;
+    transform:rotate(10deg)
+
+
+
+
+}
+@media only screen and (max-width: 600px) {
+    .mainPage {
+        display: grid;
+        grid-template-columns: 10fr;
+        grid-template-rows: 1fr 1fr 10fr ;
+        grid-template-areas: ' header'
+                                'menu'
+                             'content';
+    }
+    .header{
+        grid-area: header;
+        background-image: linear-gradient(to top, black,  rgb(167, 25, 143));
+        border: none;
+      
+    }
+    .menu{
+        grid-area: menu;
+        background-color: black;
+        background-image:none;
+        text-align: center;
+        border: none;
+    }
+    .menuButton{
+        margin: 5px;
+   
+        /* box-shadow: inset 15px 15px 40px rgb(0, 0, 0); */
+        text-shadow: 5px 5px 7px rgb(0, 0, 0);
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+        color: rgb(177, 22, 146);
+        width: 80px;
+        height: 50px;
+        font-variant: small-caps;
+        font-size: x-small;
+        border: solid black 2px;
+        transition:none;
+      
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      
+    }
+    
+    @keyframes example {
+        from {  box-shadow: 5px 5px 7px rgb(58, 1, 55);
+             
+        }
+        to {   box-shadow: 5px 5px 7px rgb(177, 22, 146)}
+      }
+
+  }
