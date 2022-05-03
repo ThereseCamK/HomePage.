@@ -116,7 +116,7 @@ body{
         font-size: x-small;
         border: solid black 2px;
         transition:none;
-      
+        transition-timing-function: none;
         animation-name: example;
         animation-duration: 4s;
         animation-iteration-count: infinite;
@@ -129,5 +129,16 @@ body{
         }
         to {   box-shadow: 5px 5px 7px rgb(177, 22, 146)}
       }
+
+      .menuButton:hover{
+        height: 55px;
+        width: 85px;
+        transform: none;
+        
+    
+    
+    
+    
+    }
 
   }
