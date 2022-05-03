@@ -5,7 +5,7 @@ function show(){
 
                 <div class="header"> ${headerView()}</div>
         	    <div class="menu"> ${menuView()}</div>
-                <div class="content"></div>
+                <div class="content">${model.view}</div>
               
     
     </div>`

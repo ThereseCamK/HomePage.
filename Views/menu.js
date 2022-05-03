@@ -1,8 +1,8 @@
 function menuView(){
-    return `<button class="menuButton"> Hjem </button>
-    <button class="menuButton"> Om  </button>
-    <button class="menuButton"> CV </button>
-    <button class="menuButton"> Prosjekter </button>
+    return `<button class="menuButton" onclick="changePage('home')"> Hjem </button>
+    <button class="menuButton" onclick="changePage('about')"> Om  </button>
+    <button class="menuButton" onclick="changePage('cv')"> CV </button>
+    <button class="menuButton" onclick="changePage('projects')"> Prosjekter </button>
     
-    `
+    `;
 }
