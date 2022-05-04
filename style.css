@@ -65,6 +65,10 @@ body{
     animation-iteration-count: infinite;
   
 }
+.contactMenu{
+    color: rgb(177, 22, 146);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
 
 @keyframes example {
     from {  box-shadow: 5px 5px 7px rgb(0, 0, 0);
@@ -80,6 +84,85 @@ body{
 
 
 
+}
+
+/* ABOUT */
+.fa{
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(255,255,255, 0); */
+    font-size: x-large;
+    color: hotpink;
+    
+    
+   
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.linkToSome{
+    font-size: x-large;
+    float: left;
+
+    text-align: center;
+    margin: 20px;
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    
+}
+.aboutHeadLine{
+    color: rgb(167, 25, 143);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    text-align: center;
+}
+.aboutTxt{
+  padding: 30px;
+  color: white;
+  margin: 50px;
+  border: solid 2px black;
+  box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+   
+}
+/* 
+PROJECTS */
+a{
+    color: hotpink;
+}
+.projectsHeader{
+    color: rgb(167, 25, 143);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    text-align: center;
+}
+.projectsView{
+    padding: 5px;
+    color: white;
+    margin: 50px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+      text-align: center;
+      text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+/* MAIN */
+img{
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    border-radius: 20px;
+ 
+}
+.firstpage{
+    padding: 5px;
+    color: white;
+    margin: 50px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+   
+      text-align: center;
+      text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+.firstPageHeadLine{
+    color: rgb(167, 25, 143);
+    text-align: center;
+      text-shadow: 5px 5px 7px rgb(0, 0, 0);  
 }
 @media only screen and (max-width: 600px) {
     .mainPage {
