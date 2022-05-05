@@ -61,7 +61,7 @@ const model ={
        },
        {
            year: '2008-2009',
-           place: 'sjømilitære Samfunn',
+           place: 'Sjømilitære Samfunn',
            description: '1.året kokkelærling'
        },
        {
