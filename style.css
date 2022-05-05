@@ -164,6 +164,51 @@ img{
     text-align: center;
       text-shadow: 5px 5px 7px rgb(0, 0, 0);  
 }
+
+/* CV */
+
+.mainContentCV::-webkit-scrollbar {
+    display: none;
+}
+.mainContentCV {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    background-color: black;
+    color:white;
+}
+div.mainContentCV{
+   background-color: rgb(69, 11, 59, 0.5);
+    box-shadow: 5px 5px 7px black;
+    text-shadow: 5px 5px 7px black;
+    padding: 20px;
+    margin: 20px;
+    overflow: scroll;
+    max-height: 75vh;
+    font-size: medium;
+}
+.qualifications{
+    font-size: medium;
+}
+table.mainCV{
+    padding: 5px;
+    margin: 10px;
+ }
+td{
+    margin: 10px;
+     padding-left: 20px;
+}
+table.educationCV{
+     float: left;
+     width: 50%;
+     font-size: medium;
+ }
+table.educationCV tr td{
+    font-size: medium;
+}
+table.workExperienceVC  {
+    font-size: medium;
+}
+
 @media only screen and (max-width: 600px) {
     .mainPage {
         display: grid;
