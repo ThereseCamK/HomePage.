@@ -3,7 +3,7 @@ function aboutView(){
     
     <div class="aboutHeadLine"> <h1>Litt om  meg og min reise til den jeg er i dag.</h1></div>
 
-    <div class="aboutTxt">    <p>  Hei! Det å skrive om meg  er nok ikke min sterkeste side men må jo gi det et forsøk eller to. <br>
+    <div class="aboutTxt">    <p> 
     <b>Tillit er viktig for meg, så for at du skal få tillit til meg så føler jeg at det er best å spille med åpne kort fra start !</b><br><br>
                     Jeg er 31 år og har akkurat gjennomført det største veiskille som har vært til nå i livet mitt. Nemlig stort karriereskifte, det er fortsatt veldig surrealistisk og uvirkelig.
 Det har seg nemlig slik at jeg valgte restaurant og matfag på videregående veldig uvitende om hva jeg EGENTLIG ville jobbe med resten av livet. Altså fagbrevet henger fortsatt på veggen hjemme, men føler egentlig det ikke hører til meg.
