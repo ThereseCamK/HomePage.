@@ -1,7 +1,8 @@
 function aboutView(){
+    let aboutHeadLineLightMode = model.lightMode === 'light' ? 'aboutHeadLineLight': '';
     model.view = ` 
     
-    <div class="aboutHeadLine"> <h1>Litt om  meg og min reise til den jeg er i dag.</h1></div>
+    <div class="aboutHeadLine ${aboutHeadLineLightMode}"> <h1>Litt om  meg og min reise til den jeg er i dag.</h1></div>
 
     <div class="aboutTxt">    <p> 
     <b>Tillit er viktig for meg, så for at du skal få tillit til meg så føler jeg at det er best å spille med åpne kort fra start !</b><br><br>

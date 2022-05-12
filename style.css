@@ -2,6 +2,17 @@ body{
     margin: 0;
    
 }
+.mode{
+    color:rgb(209, 161, 253);
+    float: left;
+    margin-left: 1%;
+}
+.lightSelected{
+    background-color: rgb(69, 11, 59, 1);;
+}
+.darkSelected{
+    background-color: rgb(69, 11, 59, 1);;
+}
 
 /* GRID */
 .mainPage{
@@ -89,9 +100,8 @@ body{
 .contactMenuLight{
     color: rgb(239, 194, 230);
 }
-.headerViewLight{
-    color: rgb(239, 194, 230);
-}
+
+
 
 @keyframes example {
     from {  box-shadow: 5px 5px 7px rgb(0, 0, 0);
@@ -102,10 +112,7 @@ body{
 .menuButton:hover{
     height: 100px;
     width: 150px;
-    transform:rotate(10deg)
-
-
-
+    transform:rotate(10deg);
 
 }
 
@@ -135,6 +142,9 @@ body{
     color: rgb(167, 25, 143);
     text-shadow: 5px 5px 7px rgb(0, 0, 0);
     text-align: center;
+}
+.aboutHeadLineLight{
+    color: rgb(239, 194, 230);
 }
 .aboutTxt{
   padding: 30px;
@@ -232,6 +242,7 @@ table.workExperienceVC  {
     font-size: medium;
 }
 
+
 @media only screen and (max-width: 600px) {
     .mainPage {
         display: grid;
@@ -294,3 +305,6 @@ table.workExperienceVC  {
     }
 
   }
+  .aboutHeadLineLight{
+    color: rgb(239, 194, 230);
+}

@@ -1,15 +1,15 @@
 function show(){
    
     let html = '';
-
+    let selectedLightMode = model.lightMode === 'light' ? '': 'lightSelected';
+    let selectedDarkMode = model.lightMode ==='dark'? '': 'darkSelected'
     html += `<div class="mainPage ">
                
 
-                <div class="header"> ${headerView()}  <select onchange="selectMode(this.value)">
-                    <option>none</option>
-                    <option>dark</option>
-                    <option>light</option>
-                </select>
+                <div class="header"> ${headerView()}  
+                <div class="mode ${selectedLightMode}" onclick="selectMode(this.innerHTML)">dark</div>
+                <div class="mode ${selectedDarkMode}" onclick="selectMode(this.innerHTML)">light</div>
+               
                 </div>
         	    <div class="menu"> ${menuView()}</div>
                 <div class="content">${model.view}</div>
@@ -22,6 +22,7 @@ function show(){
 function selectMode(theme){
 
 model.lightMode = theme;
-show()
+
+updateView();
 
 }

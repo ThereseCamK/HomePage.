@@ -1,6 +1,6 @@
 function mainView(){
-
-    model.view = `<h1 class="firstPageHeadLine"></h1>
+    let aboutHeadLineLightMode = model.lightMode === 'light' ? 'aboutHeadLineLight': '';
+    model.view = `<h1 class="firstPageHeadLine ${aboutHeadLineLightMode}"></h1>
     <div class="firstpage">
     <img src="https://media-exp1.licdn.com/dms/image/C5603AQHL-TscKWVOYA/profile-displayphoto-shrink_200_200/0/1547197833146?e=2147483647&v=beta&t=gwzKmJQzv1X7W7uhsT2-yZ-yH8wMJV73oSMcfixsQmE">
     
