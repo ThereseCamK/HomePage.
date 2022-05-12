@@ -1,6 +1,7 @@
 const model ={
     currentpage: 'home',
     view:'',
+    lightMode: 'light',
    
 
     prosjects:[
