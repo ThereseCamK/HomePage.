@@ -14,6 +14,16 @@ body{
     grid-template-areas: 'header header'
                          'menu content';
 }
+.mainPageLight{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 200px 10fr;
+    grid-template-rows: 2fr 7fr ;
+    grid-template-areas: 'header header'
+                         'menu content';
+}
 
 
 .content{
@@ -68,6 +78,19 @@ body{
 .contactMenu{
     color: rgb(177, 22, 146);
     text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+/* LIGHTMODE */
+.menuButtonLight{
+  
+    background-color: rgb(239, 194, 230);
+    
+}
+.contactMenuLight{
+    color: rgb(239, 194, 230);
+}
+.headerViewLight{
+    color: rgb(239, 194, 230);
 }
 
 @keyframes example {
