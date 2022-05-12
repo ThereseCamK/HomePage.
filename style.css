@@ -14,6 +14,16 @@ body{
     grid-template-areas: 'header header'
                          'menu content';
 }
+.mainPageLight{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 200px 10fr;
+    grid-template-rows: 2fr 7fr ;
+    grid-template-areas: 'header header'
+                         'menu content';
+}
 
 
 .content{
@@ -65,6 +75,23 @@ body{
     animation-iteration-count: infinite;
   
 }
+.contactMenu{
+    color: rgb(177, 22, 146);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+/* LIGHTMODE */
+.menuButtonLight{
+  
+    background-color: rgb(239, 194, 230);
+    
+}
+.contactMenuLight{
+    color: rgb(239, 194, 230);
+}
+.headerViewLight{
+    color: rgb(239, 194, 230);
+}
 
 @keyframes example {
     from {  box-shadow: 5px 5px 7px rgb(0, 0, 0);
@@ -81,6 +108,130 @@ body{
 
 
 }
+
+/* ABOUT */
+.fa{
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(255,255,255, 0); */
+    font-size: x-large;
+    color: hotpink;
+    
+    
+   
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.linkToSome{
+    font-size: x-large;
+    float: left;
+
+    text-align: center;
+    margin: 20px;
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    
+}
+.aboutHeadLine{
+    color: rgb(167, 25, 143);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    text-align: center;
+}
+.aboutTxt{
+  padding: 30px;
+  color: white;
+  margin: 50px;
+  border: solid 2px black;
+  box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+   
+}
+/* 
+PROJECTS */
+a{
+    color: hotpink;
+}
+.projectsHeader{
+    color: rgb(167, 25, 143);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    text-align: center;
+}
+.projectsView{
+    padding: 5px;
+    color: white;
+    margin: 50px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+      text-align: center;
+      text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+/* MAIN */
+img{
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    border-radius: 20px;
+ 
+}
+.firstpage{
+    padding: 5px;
+    color: white;
+    margin: 50px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+   
+      text-align: center;
+      text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+.firstPageHeadLine{
+    color: rgb(167, 25, 143);
+    text-align: center;
+      text-shadow: 5px 5px 7px rgb(0, 0, 0);  
+}
+
+/* CV */
+
+.mainContentCV::-webkit-scrollbar {
+    display: none;
+}
+.mainContentCV {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    background-color: black;
+    color:white;
+}
+div.mainContentCV{
+   background-color: rgb(69, 11, 59, 0.5);
+    box-shadow: 5px 5px 7px black;
+    text-shadow: 5px 5px 7px black;
+    padding: 20px;
+    margin: 20px;
+    overflow: scroll;
+    max-height: 75vh;
+    font-size: medium;
+}
+.qualifications{
+    font-size: medium;
+}
+table.mainCV{
+    padding: 5px;
+    margin: 10px;
+ }
+td{
+    margin: 10px;
+     padding-left: 20px;
+}
+table.educationCV{
+     float: left;
+     width: 50%;
+     font-size: medium;
+ }
+table.educationCV tr td{
+    font-size: medium;
+}
+table.workExperienceVC  {
+    font-size: medium;
+}
+
 @media only screen and (max-width: 600px) {
     .mainPage {
         display: grid;
