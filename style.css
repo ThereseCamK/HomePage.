@@ -91,15 +91,6 @@ body{
     text-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
 
-/* LIGHTMODE */
-.menuButtonLight{
-  
-    background-color: rgb(239, 194, 230);
-    
-}
-.contactMenuLight{
-    color: rgb(239, 194, 230);
-}
 
 
 
@@ -306,5 +297,17 @@ table.workExperienceVC  {
 
   }
   .aboutHeadLineLight{
+   
+}
+.headerViewLight{
+    color: rgb(239, 194, 230);
+}
+/* LIGHTMODE */
+.menuButtonLight{
+  
+    background-color: rgb(239, 194, 230);
+    
+}
+.contactMenuLight{
     color: rgb(239, 194, 230);
 }
