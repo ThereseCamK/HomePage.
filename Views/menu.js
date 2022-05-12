@@ -1,9 +1,11 @@
 function menuView(){
-    return `<button class="menuButton" onclick="changePage('home')"> Hjem </button>
-    <button class="menuButton" onclick="changePage('about')"> Om  </button>
-    <button class="menuButton" onclick="changePage('cv')"> CV </button>
-    <button class="menuButton" onclick="changePage('projects')"> Prosjekter </button>
-    <div class="contactMenu">
+    let lightModeBTN = model.lightMode === 'dark' ? '': 'menuButtonLight';
+    let lightModeContact = model.lightMode ===  'dark' ? '': 'contactMenuLight';
+    return `<button class="menuButton ${lightModeBTN}" onclick="changePage('home')"> Hjem </button>
+    <button class="menuButton ${lightModeBTN}" onclick="changePage('about')"> Om  </button>
+    <button class="menuButton ${lightModeBTN}" onclick="changePage('cv')"> CV </button>
+    <button class="menuButton  ${lightModeBTN}" onclick="changePage('projects')"> Prosjekter </button>
+    <div class="contactMenu ${lightModeContact}">
     <p> Kontakt: </p>
     <p>&#9743; 413 77 965</p>
     <p>&#9993; theresecnord@gmail.com</p>
