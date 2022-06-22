@@ -13,13 +13,18 @@ const model ={
         },
         {
             name: 'Timeplan for jobben',
-            info: 'Laget en timeplan for faste avtaler på jobb, så vi enkelt kunne se hvor andre hva til enhver tid',
+            info: 'Laget en timeplan for faste avtaler på jobb, så vi enkelt kunne se hvor andre hva til enhver tid, den er ikke i bruk pr dags dato, bare ett test prosjekt',
             linkToPage: 'https://theresecamk.github.io/GETacademyTimePlan/',
         },
         {
             name: 'Prototype i modul 2',
-            info: 'Laget denne for kune i modul 2, dette var ett samarbeidsprosjekt på en prototype som vi brukte 7 uker på og det var så langt vi kom. lært masse på ett slikt prosjket .  ',
+            info: 'Laget denne for en kunde i modul 2, dette var ett samarbeidsprosjekt på en prototype som vi brukte 7 uker på og det var så langt vi kom. lært masse på ett slikt prosjket .  ',
             linkToPage: 'https://thereseck.github.io/therese-og-even/therese-og-even-master/prototype/index.html',
+        },
+        {
+            name: 'Sosial medier side',
+            info: 'Dette er noe jeg holder på med nå, som ikke enda er helt ferdig. Men planen er å lage en sosial medier applikasjon, hvor man kan finne venner. Jeg bruker Javacript HTML/CSS nå, men på lang sikt så er det håp om å få denne på en mobilapplikasjon',
+            linkToPage: 'https://theresecamk.github.io/SosialMedierApp/index.html',
         }
 
     ],
