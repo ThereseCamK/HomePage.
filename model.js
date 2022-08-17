@@ -25,16 +25,21 @@ const model ={
             name: 'Sosial medier side',
             info: 'Dette er noe jeg holder på med nå, som ikke enda er helt ferdig. Men planen er å lage en sosial medier applikasjon, hvor man kan finne venner. Jeg bruker Javacript HTML/CSS nå, men på lang sikt så er det håp om å få denne på en mobilapplikasjon',
             linkToPage: 'https://theresecamk.github.io/SosialMedierApp/index.html',
+        },
+        {
+            name: 'React applikasjon',
+            info: 'Dette er en React applikasjon hvor jeg bare øver meg på å bruke react og sette meg inn i hvordan det henge sammen og hvordan ting fungerer. Dette er da min første react applikasjon. startet med at jeg fikk i oppgave av sjefen min å se på react og lage klikkergame med og uten hooks, så fant jeg selv en toturial på todo, også brukte jeg den som inspirasjon til inventar siden. ',
+            linkToPage: 'https://stellular-zuccutto-62479d.netlify.app/',
         }
 
     ],
     cvInfo:  {
         name: 'Therese Camilla Nordnes',
-        address: 'Krabbegata 52 3295 Helgeroa ',
+        address: 'Ringveien 108c 3221 Sandefjord ',
         phone: '413 77 965',
         email: 'theresecnord@gmail.com',
         born: '02.04.1990',
-        maritalStatus: 'Separert, 2 barn født i: 2015 og 2017 50%',
+        maritalStatus: 'Samboer, 2 barn født i: 2015 og 2017 50%',
         language: 'Norsk',
         hobbys: 'Tall-oppgaver,  Håndarbeid,  Engelsk Fotball,  Hjernetrim',
 
